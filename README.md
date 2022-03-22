@@ -54,7 +54,7 @@ Once you click on the red "Generate Password" button, then you're prompted to en
 
 ![no value](Assets/images/invalidvalue.gif)
 
-Once you've done that, then it asks if you want lowercase and uppercase letters, any numbers, and special characters. 
+Once you've input a value, then it asks if you want lowercase and/or uppercase letters, numbers, and/or special characters. 
 
 ![selections](Assets/images/selections.gif)
 
@@ -62,7 +62,11 @@ Once you've done that, then it asks if you want lowercase and uppercase letters,
 
 ![no selections](Assets/images/noselections.gif)
 
+Finally, here is the full demo of the Password Generator when I choose all the criteria **except** uppercase letters:
+
+![full demo](Assets/images/full-demo.gif)
+
 ## Credits 
 
-It wasn't easy creating a password generator from scratch, even with the HTML and CSS already provided to us. I've referenced most of my code from Jamie Rachael who's done a Password-Generator like this one as an assignment. 
+It wasn't easy creating a password generator from scratch, even with the HTML and CSS already provided to us. Thankfully I gotten a lot of help from a student who previously completed a Password Generator like this one in the past, here is her Github Repo for reference:
 - Here is her Github Repo: https://github.com/jamierachael/Password-Generator

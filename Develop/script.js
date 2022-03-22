@@ -38,7 +38,7 @@ function generatePassword() {
     alert("This needs a value");
   }   
   else if (enter < 8 || enter > 128) {
-    enter = praseInt(prompt("You must choose between 8 and 128"));
+    enter = parseInt(prompt("You must choose between 8 and 128"));
   }   
   // else, confirm options
   else {
@@ -119,7 +119,7 @@ function generatePassword() {
     password1.push(pickChoices);
   }
   
-  // joins password array to string
+  // joins password array and converts to string
   var password = password1.join("");
   writePassword(password);
   return password;
